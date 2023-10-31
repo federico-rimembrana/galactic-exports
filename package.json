@@ -1,0 +1,16 @@
+{
+  "name": "galactic-exports",
+  "version": "1.0.0",
+  "author": "federico.rimembrana@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "play": "yarn workspace @galactic/playground dev"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "5.2.2"
+  }
+}

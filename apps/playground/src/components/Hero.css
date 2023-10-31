@@ -1,0 +1,29 @@
+.hero-section {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+    gap: 1 rem;
+}
+
+.hero--content {
+    flex-basis: 80%;
+    text-align: left;
+}
+
+.hero--image-container {
+    flex-basis: auto;
+    position: relative;
+}
+
+.tagline {
+    color:rgba(235, 235, 245, .6);
+    font-size: 1.5em;
+    font-weight: 500px;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
