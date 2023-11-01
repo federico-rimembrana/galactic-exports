@@ -1,5 +1,6 @@
 {
   "name": "@galactic/common",
+  "version": "0.0.1",
   "packageManager": "yarn@3.6.3",
   "devDependencies": {
     "@rollup/plugin-commonjs": "25.0.4",

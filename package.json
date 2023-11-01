@@ -1,6 +1,7 @@
 {
   "name": "galactic-exports",
   "version": "1.0.0",
+  "private": true,
   "author": "federico.rimembrana@gmail.com",
   "license": "MIT",
   "scripts": {
