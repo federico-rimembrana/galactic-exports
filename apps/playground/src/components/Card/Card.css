@@ -1,0 +1,16 @@
+.card {
+    position: relative;
+    box-sizing: border-box;
+    background-color: var(--clr-surface);
+    border-radius: 0.5em;
+    padding: 1em;
+    border: 1px solid transparent;
+    &:hover {
+        border: 1px solid var(--clr-secondary);
+    }
+    
+}
+
+.card__body {
+    color: var(--clr-text--soft);
+}

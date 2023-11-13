@@ -1,11 +1,16 @@
 :root {
+  --clr-primary:#49c4d2;
+  --clr-secondary:#646cff;
+  --clr-surface: #202127;
+  --clr-text--soft:rgba(235, 235, 245, .6);
+
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #1b1b1f;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -26,7 +31,6 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }

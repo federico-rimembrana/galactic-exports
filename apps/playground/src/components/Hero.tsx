@@ -6,7 +6,8 @@ const Hero = () => {
     <section className="hero-section">
       <div className="hero--content">
         <h1>
-          Galactic Guide for <br /> library exports
+          Galactic Guide for <br /> library
+          <span className="text--gradient">exports</span>
         </h1>
         <p className="tagline">
           A journey into CJS, ESM and multi-entry galaxy

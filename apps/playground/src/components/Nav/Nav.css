@@ -1,0 +1,13 @@
+.nav {
+    position: relative;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.social-icon {
+    height: 20px;
+    width: 20px;
+    fill: currentColor;
+}

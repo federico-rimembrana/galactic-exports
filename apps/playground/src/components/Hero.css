@@ -16,6 +16,12 @@
     position: relative;
 }
 
+.text--gradient {
+    background: -webkit-linear-gradient(var(--clr-primary), var(--clr-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .tagline {
     color:rgba(235, 235, 245, .6);
     font-size: 1.5em;
